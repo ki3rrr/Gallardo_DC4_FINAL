@@ -1,0 +1,21 @@
+# Dependencies
+node_modules/
+vendor/
+
+# Environment files (never commit real ones)
+.env
+.env.local
+
+# Build / cache
+dist/
+*.log
+.phpunit.result.cache
+
+# Uploaded files
+backend/public/storage
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
